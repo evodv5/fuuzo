@@ -1,0 +1,24 @@
+apply plugin: 'war'
+
+repositories {
+    flatDir(dir: 'libs', name: 'Local libs')
+}
+
+dependencies {
+    compile project (':fuuzo-dao')
+    compile name: 'ojdbc7'
+    compile 'org.springframework:spring-webmvc:4.2.2.RELEASE'
+    compile 'org.hibernate:hibernate-validator:5.2.2.Final'
+    compile 'javax.servlet:jstl:1.2'
+    compile 'javax.servlet:javax.servlet-api:3.0.1'
+}
+
+war.archiveName "fuuzo.war"
+
+task deploy(type: Copy) {
+    from war.archivePath
+    into "${serverHome}/webapps"
+}
+
+deploy.dependsOn(clean)
+deploy.dependsOn(war)

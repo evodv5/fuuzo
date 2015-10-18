@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: :ojdbc7:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/fuuzo-webapp/libs/ojdbc7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

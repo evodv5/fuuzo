@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fuuzo/fuuzo.iml" filepath="$PROJECT_DIR$/fuuzo/fuuzo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fuuzo-dao/fuuzo-dao.iml" filepath="$PROJECT_DIR$/fuuzo-dao/fuuzo-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fuuzo-domain/fuuzo-domain.iml" filepath="$PROJECT_DIR$/fuuzo-domain/fuuzo-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fuuzo-webapp/fuuzo-webapp.iml" filepath="$PROJECT_DIR$/fuuzo-webapp/fuuzo-webapp.iml" />
+    </modules>
+  </component>
+</project>

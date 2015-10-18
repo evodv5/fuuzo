@@ -1,0 +1,16 @@
+apply from: "properties.gradle"
+
+allprojects {
+    apply plugin: 'java'
+
+    group 'pl.fuuzo'
+    version '0.1-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile 'junit:junit:4.11'
+    }
+}

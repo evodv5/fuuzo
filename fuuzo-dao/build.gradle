@@ -1,0 +1,4 @@
+dependencies {
+    compile project (':fuuzo-domain')
+    compile 'org.springframework.data:spring-data-jpa:1.9.0.RELEASE'
+}

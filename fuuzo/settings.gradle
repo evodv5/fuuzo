@@ -1,0 +1,6 @@
+rootProject.name = 'fuuzo'
+includeFlat 'fuuzo-dao'
+includeFlat 'fuuzo-domain'
+includeFlat 'fuuzo-webapp'
+
+
